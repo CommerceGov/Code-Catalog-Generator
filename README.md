@@ -10,7 +10,7 @@ The included `generate.rb` script currently leverages GSA's CodeInventory tool t
 
 ## Usage
 1. Edit config.yml to identify the agency name and list GitHub organizations to be harvested.
-2. Edit secrets.yml to provide a GitHub personal access token.
+2. Create a secrets.yml, using secrets.yml.sample as a template, to provide a GitHub personal access token.
 3. Execute the generate.rb script and pipe the output (code catalog) to a file:
 
 ```
